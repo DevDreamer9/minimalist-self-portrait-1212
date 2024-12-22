@@ -4,7 +4,7 @@ import About from '../components/About';
 
 const Index = () => {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen pt-24">
       <Hero />
       <About />
     </main>
