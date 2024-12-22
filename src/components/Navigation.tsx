@@ -23,8 +23,18 @@ const Navigation = () => {
             </Link>
           </li>
           <li>
+            <Link to="/services" className={`hover:text-gray-600 transition-colors pb-1 ${isActive('/services')}`}>
+              SERVICES
+            </Link>
+          </li>
+          <li>
             <Link to="/blog" className={`hover:text-gray-600 transition-colors pb-1 ${isActive('/blog')}`}>
               BLOG
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact" className={`hover:text-gray-600 transition-colors pb-1 ${isActive('/contact')}`}>
+              CONTACT
             </Link>
           </li>
         </ul>
